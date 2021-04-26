@@ -2,30 +2,134 @@
 
 
 Complex Network Analysis
-=============================
+###########################
 
-Investigating CNA (complex network analysis) approaches in python
 
+
+
+|
 |
 
 
+
+
+:Author: Tom Bresee
+:Version: 2.1 
+:Purpose: Advanced Data Science Tools for CNA 
+:Level:  Mark II 
+
+
+
+
+
+|
+|
+
+
+
+
+Gephi
 ~~~~~~~~~~~~~~~~~~~~~~~~
-Notebooks - Intro
+
+* `how to use gephi <https://gephi.org/users/>`_
+* Progress:  0 
 
 
 |
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Notebooks - Intermediate
-
-
-
-
 |
 
 
 
-For more ideas on themes, see the `Themes`_ repository.
 
 
-.. _Themes: https://github.com/vega/vega-themes/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
