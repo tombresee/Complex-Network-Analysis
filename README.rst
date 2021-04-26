@@ -8,38 +8,6 @@ Many aspects of a chart's appearance can be configured at the top level using
 
 
 
-Header Configuration
---------------------
-The :meth:`Chart.configure_header` method allows configuration of facet headers,
-including the font, color, size, and position of the title and labels.
-Here is an example:
-
-
-    import altair as alt
-    from vega_datasets import data
-
-    source = data.cars.url
-
-    chart = alt.Chart(source).mark_point().encode(
-        x='Horsepower:Q',
-        y='Miles_per_Gallon:Q',
-        color='Origin:N',
-        column='Origin:N'
-    ).properties(
-        width=180,
-        height=180
-    )
-
-    chart.configure_header(
-        titleColor='green',
-        titleFontSize=14,
-        labelColor='red',
-        labelFontSize=14
-    )
-
-.. altair-object-table:: altair.HeaderConfig
-
-
 
 
 View Configuration
