@@ -6,41 +6,10 @@ Complex Network Analysis
 Many aspects of a chart's appearance can be configured at the top level using
 
 
-
-
-
-
-View Configuration
-------------------
-The :meth:`Chart.configure_view` method allows you to configure aspects of the
-chart's *view*, i.e. the area of the screen in which the data and scales are
-drawn. Here is an example to demonstrate some of the visual features that can
-be controlled:
-
-    import altair as alt
-    from vega_datasets import data
-
-    source = data.cars.url
-
-    chart = alt.Chart(source).mark_point().encode(
-        x='Horsepower:Q',
-        y='Miles_per_Gallon:Q',
-    )
-
-    chart.configure_view(
-        continuousHeight=200,
-        continuousWidth=200,
-        strokeWidth=4,
-        fill='#FFEEDD',
-        stroke='red',
-    )
-
-
+<br>
 
 Altair Themes
 -------------
-Altair makes available a theme registry that lets users apply chart configurations
-globally within any Python session. This is done via the ``alt.themes`` object.
 
 The themes registry consists of functions which define a specification dictionary
 that will be added to every created chart.
@@ -51,7 +20,7 @@ For example, the default theme configures the default size of a single chart:
     >>> default()
     {'config': {'view': {'continuousWidth': 400, 'continuousHeight': 300}}}
 
-
+<br>
 
 Changing the Theme
 ~~~~~~~~~~~~~~~~~~
@@ -60,7 +29,7 @@ you can call ``alt.themes.enable(theme_name)``.
 For example, Altair includes a theme in which the chart background is opaque
 rather than transparent:
 
-
+<br>
 
 Defining a Custom Theme
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -105,6 +74,7 @@ fill unless otherwise specified:
         y='Miles_per_Gallon:Q'
     )
 
+<br>
 
 If you want to restore the default theme, use::
 
