@@ -83,21 +83,6 @@ For example, the default theme configures the default size of a single chart:
     >>> default()
     {'config': {'view': {'continuousWidth': 400, 'continuousHeight': 300}}}
 
-You can see that any chart you create will have this theme applied, and these configurations
-added to its specification:
-
-
-    import altair as alt
-    from vega_datasets import data
-
-    chart = alt.Chart(data.cars.url).mark_point().encode(
-        x='Horsepower:Q',
-        y='Miles_per_Gallon:Q'
-    )
-
-    chart.to_dict()
-
-
 
 
 Changing the Theme
@@ -119,7 +104,7 @@ registered and activated.
 For example, here we define a theme in which all marks are drawn with black
 fill unless otherwise specified:
 
-altair-plot::
+::
 
     import altair as alt
     from vega_datasets import data
