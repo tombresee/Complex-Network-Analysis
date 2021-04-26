@@ -6,7 +6,8 @@ Complex Network Analysis
 Many aspects of a chart's appearance can be configured at the top level using
 
 
-<br>
+|
+
 
 Altair Themes
 -------------
@@ -20,7 +21,7 @@ For example, the default theme configures the default size of a single chart:
     >>> default()
     {'config': {'view': {'continuousWidth': 400, 'continuousHeight': 300}}}
 
-<br>
+|
 
 Changing the Theme
 ~~~~~~~~~~~~~~~~~~
@@ -29,7 +30,7 @@ you can call ``alt.themes.enable(theme_name)``.
 For example, Altair includes a theme in which the chart background is opaque
 rather than transparent:
 
-<br>
+|
 
 Defining a Custom Theme
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -74,7 +75,8 @@ fill unless otherwise specified:
         y='Miles_per_Gallon:Q'
     )
 
-<br>
+|
+
 
 If you want to restore the default theme, use::
 
